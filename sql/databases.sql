@@ -51,10 +51,10 @@ use people;
 CREATE TABLE people (
 	id INT AUTO_INCREMENT NOT NULL,
     name VARCHAR(255),
-    phoneNumber VARCHAR(255),
+    phone_number VARCHAR(255),
     PRIMARY KEY (id)
 );
-INSERT INTO people (name, phoneNumber) VALUES
+INSERT INTO people (name, phone_number) VALUES
 	("LeChuck", "454317468"),
     ("Guybrush Threepwood", "412895678"),
     ("Elaine Marley", "458963217"),
